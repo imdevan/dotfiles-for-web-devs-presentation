@@ -18,18 +18,334 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-      <section
-        data-markdown="presentation.md"
-        data-separator="^\n\n\n"
-        data-separator-vertical="^\n\n"
-        data-separator-notes="^Note:"
-        data-charset="iso-8859-15"
-      >
-        <!--
-              Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
-              For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
-          -->
-      </section>
+				<section>
+					<p>Dotfiles for web developers</p>
+					<aside class="notes">
+						this is a note
+					</aside>
+				</section>
+
+				<section class="left">
+					<p>How to use this presentation:</p>
+					<ul>
+						<li>Take away anything you find useful</li>
+						<li>Interrupt if you have quesitons or corrections</li>
+					</ul>
+				</section>
+
+				<section>
+					<p>What are dotfiles?</p>
+					<aside class="notes">
+						- In general:
+						- In specific: they are personal development environment configs
+					</aside>
+				</section>
+
+        <section>
+					<p>[ dotfiles example ]</p>
+					<aside class="notes">
+						- show simple example
+					</aside>
+				</section>
+
+				<section>
+					<p>Why are dotfiles?</p>
+					<aside class="notes">
+						- Bring your environment with you
+						- Keep your environment organized
+					</aside>
+				</section>
+
+				<section>
+					<p>[ dotfiles example ]</p>
+					<aside class="notes">
+						- show simple example
+					</aside>
+				</section>
+
+				<section>
+					<p>Oh my! Zsh!</p>
+					<aside class="notes">
+						- why is it better than bash?
+						  - what are some out of the box wins?  
+						    - Plugins
+					</aside>
+				</section>
+
+				<section>
+					<p>[ example ]</p>
+				</section>
+
+				<section>
+					<p>GNU and you</p>
+					<pre><code class="text">stow -t ~/ &lt;config&gt;</code></pre>
+					<aside class="notes">
+						- why use gnu stow?
+						  - share configs across computers
+						  - save hours of time and lookups by reusing configs
+					</aside>
+				</section>
+
+				<section>
+					<p>[ gnu stow example ]</p>
+				</section>
+
+				<section>
+					<p>
+            <span class="fragment" data-fragment-index="1">I use </span>
+            <span>vim</span><span class="fragment" data-fragment-index="1">, by the way...</span>
+          </p>
+					<aside class="notes">
+						- great tings about vim
+						- complete ----------
+						- vim motions
+						- faster navigation
+						- easy macros
+						- maximum developer vibe
+						- https://en.wikipedia.org/wiki/Vi_(text_editor)
+						- https://en.wikipedia.org/wiki/Vim_(text_editor)
+						- Ironically it vi - does infact stand for "visual" text editor
+					</aside>
+				</section>
+
+				<!-- <section> -->
+				<!-- 	<h4>Yes I also use Cursor / Kiro / VSCode</h4> -->
+				<!--       <p class="fragment"> -->
+				<!--         and relize there is a time for any toold -->
+				<!--       </p> -->
+				<!-- </section> -->
+
+				<section>
+					<p>Okay But Why Is Vim So Great?</p>
+				</section>
+
+				<section>
+          <p>“But why Vim” - Derek Zoolander</p>
+          <ul>
+            <li class="fragment">
+              Vim Motions
+            </li>
+            <li class="fragment">
+              cuztomize anything / everything, 
+              <span class="fragment">
+                literally
+              </span>
+            </li>
+            <li class="fragment">
+              [ editor in terminal vs terminal in editor ] 
+            </li>
+          </ul>
+				</section>
+
+				<section>
+					<p>[ vim example ]</p>
+				</section>
+
+				<section>
+					<p>But Vim is Scary!</p>
+				</section>
+
+				<section>
+					<p>[ scary vim example ]</p>
+				</section>
+
+				<section>
+					<p>But it doesn't have to be.</p>
+				</section>
+
+				<section>
+					<p>By exenstion</p>
+				</section>
+
+				<section>
+					<p>[ extension example ]</p>
+				</section>
+
+        <section>
+          or,
+        </section>
+
+        <section>
+          introducing...
+        </section>
+
+				<section>
+					<img src="/assets/lazyvim.png" style="margin: auto;"/>
+				</section>
+
+				<section>
+					<p>LazyVim (is awesome)</p>
+				</section>
+
+        <section>
+          <p>moving on...</p>
+          
+          <!-- <p class="placeholder">hi</p> -->
+        </section>
+
+				<section>
+					<p>Aliases</p>
+
+          <!-- <p class="fragment fade-out">Aliases</p> -->
+          <!-- <p class="fragment">[ example ]</p> -->
+
+					<aside class="notes">
+						- what they are
+						- why they are cool
+						- example
+					</aside>
+				</section>
+
+				<section>
+					<p>[ aliases example ]</p>
+				</section>
+
+				<section>
+					<p>Functions</p>
+					<aside class="notes">
+						- what they are
+						- parameters
+						- all the power of bash scripts!
+					</aside>
+				</section>
+
+				<section>
+					<p>[ functions example ]</p>
+				</section>
+
+				<section>
+					<p>Dotfiles in the age of Vide Coding</p>
+				</section>
+
+				<section>
+					<p>[ vibe coding example ]</p>
+				</section>
+
+				<section>
+					<p>Choosing the right terminal</p>
+				</section>
+
+				<section class="left">
+					<p>[icon] iTerm2</p>
+
+          <p>=> pros:</p>
+          <ul>
+            <li>does what you need it to</li>
+            <li>gui settings interface</li>
+            <li>more features then you will ever use</li>
+          </ul>
+
+          <p>=> cons:</p>
+
+          <ul>
+            <li>not gpu accelerated -> can feel slow for some tasks</li>
+            <li>gui settings interface</li>
+            <li>more features then you will ever use</li>
+          </ul>
+        </section>
+
+				<section class="left">
+					<p>gpu accelerated terminals</p>
+          <p class="muted">// kitty, alacritty, wezterm, ghostty</p>
+          <ul>
+            <li>
+              gpu accelerated -> better performance
+            </li>
+            <li>file based configs</li>
+          </ul>
+          <p>cons:</p>
+          <ul>
+            <li>file based configs</li>
+          </ul>
+				</section>
+
+				<section class="left">
+					<p>[icon] alarcitty</p>
+					<ul>
+						<li>no font ligatures :(</li>
+					</ul>
+				</section>
+
+				<section class="left">
+					<p>[icon] kitty</p>
+					<ul>
+						<li>unable to use ctrl+cmd+space emoji picker</li>
+					</ul>
+				</section>
+
+				<section class="left">
+					<p>[icon] ghostty</p>
+          <p>pros</p>
+          <ul>
+            <li class="green">
+              written in zig
+            </li>
+            <li>new hottness</li>
+          </ul>
+          <p>cons</p>
+					<ul class="red">
+						<li>no search in terminal buffer</li>
+					</ul>
+				</section>
+
+				<section class="left">
+					<p>[icon] WezTerm => my choice</p>
+					<p>pros:</p>
+					<ul>
+						<li class="green">setting max_fps=240 makes it</li>
+            <li class="green none">feel really fast</li>
+            <li>can set square or rounded corners</li>
+            <li class="none">- mac specific</li>
+					</ul>
+					<p>cons:</p>
+					<ul>
+						<li>tiny little gap around border specifically when running "jankyborders"</li>
+					</ul>
+				</section>
+
+
+        <section>
+          tmux
+        </section>
+
+        <section>
+          [ tmux example ]
+        </section>
+
+				<section class="left">
+					<p>Extra reading:</p>
+					<ul>
+						<li><a href="https://dotfiles.github.io/">simple dotfiles example</a></li>
+						<li><a href="https://dotfiles.github.io/">github dotfiles documentation</a></li>
+						<li><a href="github...">this presentation</a></li>
+					</ul>
+				</section>
+
+        <section class="left">
+					<p>Extra Credit for mac:</p>
+					<ul>
+						<li>Keyboard Maestro</li>
+						<li>Karabiner</li>
+            <li>jankyborders</li>
+					</ul>
+        </section>
+
+				<section class="left">
+					<p>Extra Credit for everyone:</p>
+					<ul>
+            <li>lazydocker</li>
+            <li>lazygit</li>
+						<li>Vimium</li>
+						<li>Qutebrowser</li>
+					</ul>
+        </section>
+
+				<section>
+					<p>Q & A:</p>
+					<aside class="notes">
+            - did anyone get more than 10 points? 20 points? 
+					</aside>
+				</section>
 
 				<section>
           end

@@ -23,6 +23,7 @@ html.reveal-full-page {
 }
 
 .reveal-viewport {
+  cursor: none;
 	height: 100%;
 	overflow: hidden;
 	position: relative;
@@ -2187,4 +2188,50 @@ $notesWidthPercent: 25%;
 
 @import 'print/pdf.scss';
 @import 'print/paper.scss';
+
+
+
+/*********************************************
+ * CUSTOM STYLES
+ *********************************************/
+section.left { 
+  text-align: left;
+}
+
+.muted {
+  color: #a5adcb;
+}
+
+ul {
+  margin: 0 0 0 0.75em !important;
+}
+
+ul > li {
+  // list-style-type: "— ";
+  list-style-type: "-";
+  padding-left: 1rem;
+}
+
+ul > li.none {
+  // list-style-type: "— ";
+  list-style-type: " ";
+  padding-left: 1rem;
+}
+
+.li-body {
+  // margin-left: 1rem;
+}
+
+.placeholder {
+  display: block;
+  opacity: 0;
+}
+
+.green {
+  color: #a6da95;
+}
+
+.red {
+  color: #ed8796;
+}
 
